@@ -83,7 +83,8 @@ gallery.innerHTML = images.map(({preview, original, description}) => `
            `).join("");
 
 
-new SimpleLightbox('.gallery a', { 
+ new SimpleLightbox('.gallery a', { 
+
     captionsData: 'alt',
     captionsDelay: 250,
 
